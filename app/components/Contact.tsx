@@ -15,7 +15,7 @@ export default function Contact() {
 
           <p className="text-white/80 leading-relaxed max-w-md">
             Whether you're hiring, collaborating, or a fellow student, my inbox is open.
-            Feel free to reach out — I'd love to connect.
+            Feel free to reach out. I would love to connect.
           </p>
 
           {/* Social icons */}
