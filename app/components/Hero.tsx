@@ -25,7 +25,7 @@ export default function Hero() {
 
           <div className="flex items-center gap-6 mt-2">
             <a
-              href="/cv.pdf"
+              href="https://drive.google.com/file/d/1gOKV2fMcNVjYyhxZ7gRnZ5fm1RstxLsF/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full bg-gradient-to-r from-accent-purple to-accent-gold text-white font-medium hover:opacity-90 transition-opacity"

@@ -19,12 +19,12 @@ export default function Leadership() {
       </div>
 
       <a
-        href="/cv.pdf"
+        href="https://drive.google.com/file/d/1gOKV2fMcNVjYyhxZ7gRnZ5fm1RstxLsF/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block mt-8 text-accent-purple hover:text-accent-gold underline underline-offset-4 text-sm"
       >
-        See more on my CV →
+        See more on my CV 
       </a>
     </section>
   );
