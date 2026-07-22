@@ -51,6 +51,12 @@ export const experience = [
 ];
 
 export const leadership = [
+  
+    {
+    role: "Welfare Committee Co-chairperson",
+    org: "Ashesi Student Council",
+    period: "Feb 2026 - present",
+  },
   {
     role: "Resident Assistant (RA)",
     org: "Ashesi University",
@@ -74,17 +80,12 @@ export const leadership = [
   {
     role: "Welfare Committee Secretary",
     org: "Ashesi Student Council",
-    period: "Jan 2025 - Present",
+    period: "Jan 2025 - Feb 2026",
   },
   {
     role: "General Secretary",
     org: "Ashesi Speech and Debate Association",
-    period: "Aug 2024 - Present",
-  },
-  {
-    role: "Volunteer Tutor",
-    org: "Independent",
-    period: "Sep 2021 - Present",
+    period: "Aug 2024 - May 2026",
   },
 ];
 
@@ -162,8 +163,8 @@ export const projects = [
     link: null,
   },
   {
-    title: "Farm Dialogue – Ashesi University",
-    period: "Jan 2024 – Aug 2024",
+    title: "Farm Dialogue - Ashesi University",
+    period: "Jan 2024 - Aug 2024",
     description: "Market research and stakeholder engagement to improve smallholder farmers' access to machinery in Ghana.",
     techStack: ["Market Research", "Stakeholder Engagement"],
     category: "Research",

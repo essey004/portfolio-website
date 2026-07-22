@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { projects } from "./data";
 
-const ROW_SIZE = 3;
+const ROW_SIZE = 6;
+const ADD_ROW = 3;
 
 const categoryStyles: Record<string, string> = {
   Hardware: "bg-accent-gold/15 text-[color:var(--tag-text)]",
@@ -60,7 +61,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="text-accent-purple hover:text-accent-gold text-sm mt-1"
                 >
-                  View project →
+                  View project 
                 </a>
               )}
             </div>
@@ -71,7 +72,7 @@ export default function Projects() {
       {hasMore && (
         <div className="flex justify-center mt-10">
           <button
-            onClick={() => setVisibleCount((prev) => prev + ROW_SIZE)}
+            onClick={() => setVisibleCount((prev) => prev + ADD_ROW)}
             className="px-6 py-2.5 rounded-full border border-accent-purple text-accent-purple hover:bg-accent-purple hover:text-white transition-colors text-sm"
           >
             Show more
