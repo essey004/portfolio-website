@@ -6,6 +6,7 @@
   --accent-purple: #5B2C82;
   --accent-gold: #C9A227;
   --border: #E5DFEA;
+  --tag-text: #8a6d13;
 }
 
 .dark {
@@ -14,27 +15,8 @@
   --text-muted: #A99BB3;
   --accent-purple: #A57DD1;
   --accent-gold: #E5C158;
-  --border: #2E2438;
-}
-
-@theme {
-  --color-bg: #FEFCFA;
-  --color-text: #241B2F;
-  --color-text-muted: #6B6070;
-  --color-accent-purple: #5B2C82;
-  --color-accent-gold: #C9A227;
-  --color-border: #E5DFEA;
-  --font-sans: var(--font-body);
-  --font-heading: var(--font-heading);
-}
-
-.dark {
-  --color-bg: #17111F;
-  --color-text: #F0EAF5;
-  --color-text-muted: #A99BB3;
-  --color-accent-purple: #A57DD1;
-  --color-accent-gold: #E5C158;
-  --color-border: #2E2438;
+  --border: #3A3145;
+  --tag-text: #F0DFA0;
 }
 
 html, body {

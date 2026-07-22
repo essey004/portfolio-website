@@ -16,7 +16,7 @@ export default function Experience() {
                 <h3 className="text-lg font-semibold">{item.role}</h3>
                 <p className="text-accent-purple text-sm mt-0.5">{item.org}</p>
                 {item.link && (
-                <a  
+                  <a
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function Experience() {
                 {item.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="text-xs px-3 py-1 rounded-full bg-accent-gold/15 text-[#8a6d13] font-medium"
+                    className="text-xs px-3 py-1 rounded-full bg-accent-gold/15 text-[color:var(--tag-text)] font-medium"
                   >
                     {skill}
                   </span>

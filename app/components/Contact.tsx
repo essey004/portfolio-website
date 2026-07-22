@@ -64,7 +64,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://github.com/esse004"
+              href="https://github.com/essey004"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-white hover:text-accent-gold transition-colors"
@@ -80,7 +80,7 @@ export default function Contact() {
         {/* Right: form, lifted white card */}
         <form
           onSubmit={handleSubmit}
-          className="bg-bg text-text rounded-2xl p-6 md:p-8 flex flex-col gap-4 shadow-2xl"
+          className="bg-[#FEFCFA] text-[#241B2F] rounded-2xl p-6 md:p-8 flex flex-col gap-4 shadow-2xl"
         >
           <div className="flex flex-col gap-1">
             <label htmlFor="name" className="text-sm text-text-muted">Name</label>
@@ -90,7 +90,7 @@ export default function Contact() {
               required
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
-              className="border border-border rounded-lg px-3 py-2 bg-bg text-text focus:outline-none focus:border-accent-purple"
+              className="border border-border rounded-lg px-3 py-2 bg-[#FEFCFA] text-[#241B2F] focus:outline-none focus:border-accent-purple"
             />
           </div>
 
@@ -102,7 +102,7 @@ export default function Contact() {
               required
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
-              className="border border-border rounded-lg px-3 py-2 bg-bg text-text focus:outline-none focus:border-accent-purple"
+              className="border border-border rounded-lg px-3 py-2 bg-[#FEFCFA] text-[#241B2F] focus:outline-none focus:border-accent-purple"
             />
           </div>
 
@@ -114,7 +114,7 @@ export default function Contact() {
               required
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
-              className="border border-border rounded-lg px-3 py-2 bg-bg text-text focus:outline-none focus:border-accent-purple resize-none"
+              className="border border-border rounded-lg px-3 py-2 bg-[#FEFCFA] text-[#241B2F] focus:outline-none focus:border-accent-purple"
             />
           </div>
 

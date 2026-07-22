@@ -20,7 +20,7 @@ export default function Hero() {
           <p className="text-text-muted max-w-md leading-relaxed">
             I'm a final-year student,
             working across software, hardware, and research, from embedded
-            systems to AI/ML hoping to build things that solve real problems. Iam currently looking for internship opportunities
+            systems to AI/ML hoping to build things that solve real problems. I am currently looking for internship opportunities
           </p>
 
           <div className="flex items-center gap-6 mt-2">

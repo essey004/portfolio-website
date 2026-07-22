@@ -6,15 +6,14 @@ import { projects } from "./data";
 const ROW_SIZE = 3;
 
 const categoryStyles: Record<string, string> = {
-  Hardware: "bg-accent-gold/15 text-[#8a6d13]",
+  Hardware: "bg-accent-gold/15 text-[color:var(--tag-text)]",
   "AI/ML": "bg-accent-purple/15 text-accent-purple",
-  Research: "bg-accent-gold/15 text-[#8a6d13]",
+  Research: "bg-accent-gold/15 text-[color:var(--tag-text)]",
   Software: "bg-accent-purple/15 text-accent-purple",
 };
 
 export default function Projects() {
   const [visibleCount, setVisibleCount] = useState(ROW_SIZE);
-
   const visibleProjects = projects.slice(0, visibleCount);
   const hasMore = visibleCount < projects.length;
 
@@ -37,9 +36,7 @@ export default function Projects() {
                 </span>
               </div>
 
-              {item.period && (
-                <p className="text-text-muted text-xs -mt-2">{item.period}</p>
-              )}
+              {item.period && <p className="text-text-muted text-xs -mt-2">{item.period}</p>}
 
               <p className="text-text-muted text-sm leading-relaxed">{item.description}</p>
 
@@ -48,7 +45,7 @@ export default function Projects() {
                   {item.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="text-xs px-3 py-1 rounded-full bg-accent-gold/15 text-[#8a6d13] font-medium"
+                      className="text-xs px-3 py-1 rounded-full bg-accent-gold/15 text-[color:var(--tag-text)] font-medium"
                     >
                       {tech}
                     </span>
