@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 :root {
   --bg: #FEFCFA;
   --text: #241B2F;
@@ -17,6 +18,16 @@
   --accent-gold: #E5C158;
   --border: #3A3145;
   --tag-text: #F0DFA0;
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-accent-purple: var(--accent-purple);
+  --color-accent-gold: var(--accent-gold);
+  --color-tag-text: var(--tag-text);
 }
 
 html, body {
